@@ -57,7 +57,7 @@ export default function FloodDetectionSystem() {
   const [aiAnalysis, setAiAnalysis] = useState<string>("");
   const mapRef = useRef<HTMLDivElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "https://flood-risk-assessment-tool-backend.onrender.com";
 
   // Initialize Google Maps
   useEffect(() => {
